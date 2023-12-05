@@ -5,3 +5,94 @@
 .attribution a { 
   color: hsl(228, 45%, 44%);
 }
+
+/* general styles */
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('./assets/fonts/Roboto-Bold.ttf') format('truetype');
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+h1, button {
+  font-family: 'Roboto-Bold', 'Roboto', sans-serif;
+  font-weight: 700;
+}
+p, ul, label, input {
+  font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+  font-weight: 500;
+  color: hsl(234, 29%, 20%);
+}
+body, html {
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/* form styles */
+.mobile-image {
+  width: 100%;
+}
+form {
+  padding: 1rem;
+}
+ul {
+  list-style-image: url('./assets/images/icon-list.svg');
+  margin-bottom: 1rem; /* Adjust the value as needed */
+}
+ul li {
+  margin-bottom: 0.75rem;
+}
+label {
+  font-size: .7rem;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+input, button {
+  padding: 1rem;
+  border-radius: 8px;
+}
+input {
+  display: block;
+  width: 90%;
+  margin: auto;
+  border-width: 1px;
+  border-color: hsl(231, 7%, 60%);
+  font-size: 1rem;
+  color: hsl(231, 7%, 60%);
+}
+button {
+  width: 100%;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  color: white;
+  background-color: hsl(240, 100%, 15%);
+  font-size: 1rem;
+  border-width: 0;
+}
+
+/* success message styles */
+#success-icon {
+  margin-top: 35%;
+}
+
+#success-message {
+  margin: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#success-button {
+
+}
